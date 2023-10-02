@@ -7,6 +7,13 @@ You will build upon the application we've developed during the lessons in this c
 
 You can clone this repo to run the project locally, or navigate to the workspace in the Udacity course.
 
+- Run Npm i for install dependence, 
+- Run aws configure
+- go to C:\Users\user___\.aws\* update file config
+- eb init and PassPhase: alanq_q
+- update paxkage.json:  "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..", "clean": "rm -rf www/ || true",
+- 
+
 ## Project Instructions
 
 To complete this project, you will need to:
