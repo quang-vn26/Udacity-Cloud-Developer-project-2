@@ -13,7 +13,8 @@ You can clone this repo to run the project locally, or navigate to the workspace
 - eb init and PassPhase
 - Zip file and update in config.yml
 - eb create
-- go to link: http://imagefilteralanq-dev.us-west-2.elasticbeanstalk.com/
+- go to link: http://imagefilteralanq-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+- eb deploy
 
 ## Project Instructions
 
